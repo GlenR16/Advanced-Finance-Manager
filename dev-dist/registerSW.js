@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) navigator.serviceWorker.register('/Advanced-Finance-Manager/dev-sw.js?dev-sw', { scope: '/Advanced-Finance-Manager/', type: 'classic' })
