@@ -35,7 +35,6 @@ export default function IncomeListCard(props){
             start: document.getElementById("start").value,
             end: document.getElementById("end")?.value,
             increment: document.getElementById("increment").value,
-            interest: document.getElementById('interest').value
         }
         try{
             editIncome(id,incomeObj);
